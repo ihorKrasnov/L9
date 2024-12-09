@@ -1,0 +1,33 @@
+<!-- res/layout/activity_add_post.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Body"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:lines="4"
+        android:gravity="top|start" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Post"
+        android:textSize="18sp" />
+
+</LinearLayout>
